@@ -68,6 +68,8 @@ import robomimic.utils.env_utils as EnvUtils
 import robomimic.utils.file_utils as FileUtils
 from robomimic.envs.env_base import EnvBase, EnvType
 
+from IPython import embed
+
 
 # Define default cameras to use for each env type
 DEFAULT_CAMERAS = {
